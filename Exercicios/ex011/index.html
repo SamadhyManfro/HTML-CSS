@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>tente abrir esse site em varios disposiitivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="imagem flexivel">
+    </picture>
+    
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir audios em HTML5.</p>
+    <!--auto ou nada faz o download do audio todo antes de carregar a pagina metadata, faz o download so dos dados do audio-->
+    <audio preload="metadata" autoplay controls loop> 
+        <source src="audio/bravado.mp3" type="audio/mpeg">
+        <source src="audio/bravado.mp3" type="audio/ogg">
+        <source src="audio/bravado.mp3" type="audio/wave">
+        <p>Infelizmente seu navegador nao consegue reproduzir audio. <a href="audio/bravado.mp3">Clique aqui para baixar o arquivo MP3.</a></p>
+    </audio>
+</body>
+</html>
