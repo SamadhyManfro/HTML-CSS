@@ -9,23 +9,27 @@
     --fonte2: 'Passion One', cursive;
     --fonte3: 'Sriracha', cursive;
 }
-
 body {
     background-color: black;
     color: white;
     margin: 0px;
-}
-p {
-    font-weight: 1000px;
-    text-align: justify;
-
 }
 h1 {
     font-family: var(--fonte2);
     font-weight: normal;
     font-size: 100px;
     text-align: center;
-    margin: auto;
+    margin: 40px 20px 20px;
+}
+p#ph1 {
+    text-align: center;
+    font-size: large;
+    margin: 0px 0px 40px;
+}
+p a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
 }
 p#normal {
     margin: auto;
@@ -47,30 +51,56 @@ p#imagem {
     color: white;
 }
 p#imagem1 {
-    margin: auto;
+    margin: 0px 665px 0px 30px;
     text-align: left;
     font-size: 40px;
     font-family: var(--fonte3);
-    padding: 30px;
-    background-color: black;
+    background-color: #0000005c;
     color: white;
-    background:black url("imagens/background001.jpg") center center no-repeat scroll;
-    background-size: cover;
+
 }
 p#imagem2 {
-    margin: auto;
+    margin: 0px 655px 0px 30px;
     text-align: left;
     font-size: 40px;
     font-family: var(--fonte3);
-    padding: 30px;
-    background-color: white;
-    color: black;
-    background:black url("imagens/background002.jpg") center center no-repeat scroll;
-    background-size: cover;
+    background-color: #0000005c;
+    color: white;
+
 }
 section#s1 {
 
 }
 section#s2 {
+    box-shadow: rgba(0, 0, 0, 0.473) inset 6px 6px 13px 0px;
+    background:black url("imagens/background001.jpg") center center no-repeat scroll;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+    padding: 50px;
+}
+section#s3 {
 
+}
+section#s4 {
+    box-shadow: rgba(0, 0, 0, 0.473) inset 6px 6px 13px 0px;
+    background:black url("imagens/background002.jpg") center center no-repeat scroll;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+    padding: 50px;
+}
+section#s5 {
+
+}
+footer {
+    font-size: large;
+    margin: 10px;
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
 }
